@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-Hustle | Gen-Z Tech & Finance Blog</title>
+    <meta name="description" content="The ultimate guide for the next gen.">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="blob-bg"></div>
+    <div class="blob-bg blob-2"></div>
+    <header class="glass-header">
+        <div class="container nav-container">
+            <h1 class="logo">Z-<span>Hustle</span>.</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#articles">Articles</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" aria-label="Toggle Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="home" class="hero fade-in">
+            <div class="hero-content">
+                <span class="pill-badge">#1 AI & Money Blog for Gen Z</span>
+                <h2 class="hero-title">Hack Your <br><span class="gradient-text">Future.</span></h2>
+                <p class="hero-subtitle">Master AI, build side hustles, and create passive income streams without the BS.</p>
+                <div class="hero-buttons">
+                    <a href="#articles" class="btn btn-primary">Start Reading <span class="arrow">→</span></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="glass-card decorative-card card-1">
+                    <img src="https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?auto=format&fit=crop&q=80&w=400" alt="Cyberpunk AI abstract" class="card-img-top">
+                    <div class="card-body">
+                        <h3>AI Side Hustles</h3>
+                        <p>5 ways to print money with ChatGPT.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="articles" class="articles-section fade-in">
+            <div class="section-header">
+                <h2 class="section-title">Latest <span class="gradient-text">Drops</span></h2>
+            </div>
+            
+            <div class="article-grid">
+                <article class="glass-card article-card reveal">
+                    <div class="article-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=600" alt="ChatGPT screen" loading="lazy">
+                        <span class="category-badge ai">AI</span>
+                    </div>
+                    <div class="article-content">
+                        <span class="article-date">Oct 24 • 5 min read</span>
+                        <h3 class="article-title"><a href="#">How to build a faceless YouTube channel with AI</a></h3>
+                        <p class="article-excerpt">No camera? No problem. Here's exactly how I used AI to monetise.</p>
+                        <div class="article-footer">
+                            <div class="author"><span>Alex</span></div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="glass-card article-card reveal">
+                    <div class="article-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1620325867502-221ddb5b4f2e?auto=format&fit=crop&q=80&w=600" alt="Crypto design" loading="lazy">
+                        <span class="category-badge crypto">Crypto</span>
+                    </div>
+                    <div class="article-content">
+                        <span class="article-date">Oct 22 • 4 min read</span>
+                        <h3 class="article-title"><a href="#">Stop buying shitcoins. Do this instead if you're broke.</a></h3>
+                        <p class="article-excerpt">The ultimate low-risk guide to stacking your first $1k.</p>
+                        <div class="article-footer">
+                            <div class="author"><span>Sam</span></div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="newsletter" class="newsletter-section glass-card reveal">
+            <div class="newsletter-content">
+                <h2>Join 10,000+ hustlers.</h2>
+                <form class="newsletter-form" id="subForm">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h2 class="logo">Z-<span>Hustle</span>.</h2>
+                <p>Built for the next generation of builders.</p>
+            </div>
+            <div class="footer-links">
+                <div class="link-col">
+                    <h4>Categories</h4>
+                    <a href="#">AI Tools</a>
+                    <a href="#">Side Hustles</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom container">
+            <p>&copy; <span id="year"></span> Z-Hustle. Created in Sri Lanka 🇱🇰.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
